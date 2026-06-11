@@ -7,59 +7,63 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
 <!-- =============== START OF HOME SECTION =============== -->
     <body>
-        <div id="home">
+        <div id="home" class=" md:grid h-screen">
 <!-- ================ NAVBAR SECTION ================= -->
             <nav>
-                <div class="nav-bar">
+                <div class="nav-bar md:flex justify-around items-center">
                     <h2 class="nav-title">Jaylin Knight</h2>
                     
-                    <ul>
-                        <li class="item1"><a href="#about">About</a></li>
-                        <li class="item4"><a href="#experience">Experience</a></li>
-                        <li class="item2"><a href="#projects">Projects</a></li>
-                        <li class="item3"><a href="#contact">Contact</a></li>
+                    <ul class="md:flex gap-x-5">
+                        <li class="item1 md:hover:text-sky-500 "><a href="#about">About</a></li>
+                        <li class="item4 md:hover:text-sky-500"><a href="#experience">Experience</a></li>
+                        <li class="item2 md:hover:text-sky-500"><a href="#projects">Projects</a></li>
+                        <li class="item3 md:hover:text-sky-500"><a href="#contact">Contact</a></li>
                     </ul>
                     
                 </div>
             </nav>
 <!-- =================HERO SECTION================== -->
-            <section>
-                <div class="hero">
+            <section class="md:flex flex-col justify-start items-center ">
+                <div class="hero md:flex justify-center items-center">
                     <div class="profile-img-container">
-                        <img class="profile-image" src="./assets/images/profile.jpg" alt="Profile-Pixture">
+                        <img class="profile-image md:h-64 rounded-full border-2" src="./assets/images/profile.jpg" alt="Profile-Pixture">
                     </div>
 
                     <div class="hero-title-container">
-                        <div class="hero-title">
+                        <div class="hero-title md:flex flex-col justify-center content-center items-center gap-y-4">
 
-                            <div>
+                            <div class="md:text-center">
                                 <p>
                                     Hello, I'm
                                 </p>
-                                <h1><span class="blue">Jaylin</span> Knight</h1>
+                                <h1><span class="blue text-sky-500">Jaylin</span> Knight</h1>
                                 <div >
-                                    <sub>Developer |<span class="blue"> Designer</span> </sub>
+                                    <p class="sub">Developer |<span class="blue text-sky-500"> Designer</span> </p>
                                 </div>
                             </div>
                             <div>
-                                <button class="hero-btn">Experience</button>
-                                <button class="hero-btn">Contact Info</button>
+                                <button class="hero-btn md:border-2 p-3 border-solid rounded-full cursor-pointer ">Experience</button>
+                                <button class="hero-btn md:border-2 p-3 border-solid rounded-full cursor-pointer">Contact Info</button>
                             </div>
-                            <div class="links">
+                            <div class="links md:flex gap-x-3">
                                 <a href="#">
-                                    <div><img class="nav-icons" src="./assets/images/github.png" alt="github icon"></div>
+                                    <div><img class="nav-icons md:h-10 w-11" src="./assets/images/github.png" alt="github icon"></div>
                                 </a>
                                 <a href="#">
-                                    <div><img class="nav-icons" src="./assets/images/linkedin.png" alt="linkedIn"></div></a>
+                                    <div><img class="nav-icons md:h-11" src="./assets/images/linkedin.png" alt="linkedIn"></div></a>
                     
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <div>
+                <!-- place holder container div -->
+            </div>
                 
 
             <!-- <div>
@@ -81,30 +85,30 @@
         <main >
 
         
-            <div id="about">
+            <div id="about md:h-screen">
                 <div class="title-container extra-pad">
-                    <div class="title">
+                    <div class="title md:text-center">
                         <small>&#8592; HERE'S A LITTLE &#8594;</small>
                         <h2><span class="waves">About Me</span></h2>
                     </div>
                 </div>
-                <div class="abt-content">
+                <div class="abt-content flex justify-center items-center gap-x-5">
                     <div>
-                        <img class="secondary-img" src="./assets/images/profile.jpg" alt="placeholder photo">
+                        <img class="secondary-img h-100 rounded-xl" src="./assets/images/profile.jpg" alt="placeholder photo">
                     </div>
                     <div class="quotes">
-                        <div class="quote-boxes">
-                            <div class="boxes">
+                        <div class="quote-boxes flex gap-x-3">
+                            <div class="boxes border-2 border-solid rounded-xl flex-1 p-3">
                                 <img src="" alt="chess-piece">
                                 <h3>Experience</h3>
                                 <p>2+ years</p>
                                 <p>Frontend Development</p>
                             </div>
-                            <div class="boxes">
+                            <div class="boxes border-2 border-solid rounded-xl flex-1 p-3">
                                 <img src="" alt="people icon">
                                 <h3>Education</h3>
                                 <p>Bachelors of Kinesiology</p>
-                                <p>CIT Software Developer Assistant Cert</p>
+                                <p>Software Developer Assistant Cert</p>
                             </div>
                         </div>
                         <div>
@@ -118,7 +122,7 @@
 
     <!-- =================EXPERIENCE SECTION================== -->
 
-            <div id="experience" class="hidden">
+            <div id="experience" class="hidden md:h-screen">
                 
                     <div class="experience-container">
                         <div class="title-container">
