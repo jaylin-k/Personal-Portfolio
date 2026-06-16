@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jaylin | Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+<!-- =============== START OF HOME SECTION =============== -->
+    <body>
+        <div id="home" class="h-screen justify-center content-center items-center ">
+            <div class="lg:grid lg:grid-cols-6  lg:grid-rows-3 lg:gap-3 m-(--margin-sizes)">
+                
+            
+<!-- ================ NAVBAR SECTION ================= -->
+                <div class="lg:col-span-5 ">
+    <!-- =================HERO SECTION================== -->
+                    <section class=" lg:flex flex-col justify-start border-6 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl ">
+                        <div class="flex justify-center items-center gap-x-10 ">
+                            
+                            <div class="flex flex-col justify-center content-center items-center gap-2">
+
+                                <div class="text-center bubble">
+                                    <p>
+                                        Hello, I'm
+                                    </p>
+                                    <h1 class="m-0"><span class="blue text-violet-600">Jaylin</span> Knight</h1>
+                                    <div>
+                                        <h3>Developer |<span class="blue text-violet-600"> Designer</span> </h3>
+                                    </div>
+                                </div>
+                                <!-- <div>
+                                    <button class="hero-btn transition delay-150 duration-300 ease-in-out hover:-translate-y-1 border-2 p-3 border-solid hover:border-violet-600 rounded-full cursor-pointer hover:bg-violet-600 hover:text-white shadow-xl/30 ">Experience</button>
+                                    <button class="hero-btn transition delay-150 duration-300 ease-in-out hover:-translate-y-1 border-2 p-3 border-solid border-black rounded-full cursor-pointer bg-[#1a1a1ac6] hover:bg-black text-white shadow-xl/30">Contact Info</button>
+                                </div>
+                                <div class="links flex gap-x-3">
+                                    <a href="#">
+                                        <div><img class="nav-icons md:h-14 w-15 hover:bg-[#0FBF3E] rounded-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1" src="./assets/images/github.png" alt="github icon"></div>
+                                    </a>
+                                    <a href="#">
+                                        <div><img class="nav-icons md:h-15 hover:bg-[#0077B5] rounded-full transition delay-150 duration-300 ease-in-out hover:-translate-y-1" src="./assets/images/linkedin.png" alt="linkedIn"></div></a>
+                        
+                                </div> -->
+                            </div>
+                            
+                            <div class="">
+                                <img class=" h-24 lg:h-48" src="./assets/images/chibinecklacetransparent.png" alt="Profile-Pixture">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-span-5 row-span-4 content-start">
+                    <div class="items-center content-center justify-center">
+                        <div class="flex flex-wrap w-full justify-center text-left gap-5">
+                            <div class="border-2 w-1/3  overflow-hidden transition delay-150 duration-300 ease-in-out hover:-translate-y-1 border-6 p-3 border-solid hover:border-violet-600 rounded-lg cursor-pointer hover:bg-violet-600 hover:text-white shadow-xl/30">
+                                <div class="bg-[url(/assets/images/naruto.jpg)] bg-no-repeat bg-cover  bg-center h-full w-full">
+                                    <a href="#about" class="backdrop-blur-[2px]">  
+                                        <div class="justify-self-end h-full w-full text-right p-3">
+                                            <p>ABOUT</p>
+                                            <p>私について</p>
+                                            <p>SOMBRE MI</p>
+                                            <p>나에 대하여</p>
+                                        </div>
+                                    </a>
+                                </div>  
+                            </div>
+                            <div class="col-start-2 border-2 w-1/2  overflow-hidden transition delay-150 duration-300 ease-in-out hover:-translate-y-1 border-6 p-3 border-solid hover:border-violet-600 rounded-sm cursor-pointer hover:bg-violet-600 hover:text-white shadow-xl/30">
+                                <div class="bg-[url(/assets/images/juuzu.jpg)] p-0 bg-center bg-no-repeat bg-cover h-full w-full ">
+                                    <a href="#experience" class="backdrop-blur-[2px]">
+                                        <div class="p-5 h-full w-full ">
+                                            <p>XP+ERIENCE</p>
+                                            <p>経歴</p>
+                                            <p>EXPERIENCIA</p>
+                                            <p>경력</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-start-2 border-2 w-1/2 overflow-hidden transition delay-150 duration-300 ease-in-out hover:-translate-y-1 border-6 p-3 border-solid hover:border-violet-600 rounded-xl cursor-pointer hover:bg-violet-600 hover:text-white shadow-xl/30">
+                                <div class="bg-[url(/assets/images/rukia.jpg)] bg-no-repeat bg-cover bg-center h-full w-full">   
+                                    <a href="#projects" class="backdrop-blur-[2px]">
+                                        <div class="justify-self-end h-full w-full text-right p-3">
+                                            <p>PROJECTS</p>
+                                            <p>私のプロジェクト</p>
+                                            <p>MIS PROYECTOS</p>
+                                            <p>프로젝트 모음</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-start-2 border-2 w-1/3 relative transition delay-150 duration-300 ease-in-out hover:-translate-y-1 border-6 p-3 border-solid hover:border-violet-600 rounded-xl cursor-pointer hover:text-white shadow-xl/30">
+                                <div class="bg-[url(/assets/images/zeropeace.jpg)] bg-no-repeat bg-cover absolute top-0 left-0 bg-center h-full w-full ">
+                                    <a href="#contact" class="backdrop-blur-[2px]">   
+                                        <div class="h-full w-full p-3">
+                                            <p>CONTACT ME</p>
+                                            <p>お問い合わせ</p>
+                                            <p>CONTACTAME</p>
+                                            <p>연락하기</p>
+                                        </div>
+                                    </a>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+                <nav class="col-start-6 row-start-1 row-span-3 justify-center content-center border-l-6  ">
+                    <div class="nav-bar flex flex-col justify-center items-center ">
+        
+                        <ul class="flex flex-col content-center gap-y-25 lg:text-xl">
+    
+                            <li class="item1 hover:text-violet-600 ">
+                                <div class="flex flex-col justify-center items-center">
+                                   <a href="#about"><img src="/assets/images/emote1.png" class=" h-24" alt="">About Me</a>
+                                </div>
+                            </li>
+                            <li class="item4 hover:text-violet-600"><a href="#experience">Experience</a></li>
+                            <li class="item2 hover:text-violet-600"><a href="#projects">Projects</a></li>
+                            <li class="item3 hover:text-violet-600"><a href="#contact">Contact</a></li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+            
+
+            
+            </div>
+
+
+
+            <!-- <div>
+                <div class="corner-btn">
+                    <button class="corner-nav-btn">Nav</button>
+                </div>
+                <div class="nav-btn">
+                    <button onclick="toggleDark()" class="corner-nav-btn theme-btn"><div class="mode">Dark/Light</div></button>
+                </div>
+            </div>   
+             -->
+        </div>
+
+<!-- =================MAIN SECTION================== -->
+
+<!-- =================ABOUT SECTION================== -->
+        
+        <main >
+
+        
+            <div id="about" class="h-screen flex justify-center flex-col">
+                <div class="title-container extra-pad">
+                    <div class="title text-center">
+                        <small>&#8592; HERE'S A LITTLE &#8594;</small>
+                        <h2><span class="waves">About Me</span></h2>
+                    </div>
+                </div>
+                <div class="abt-content flex justify-center items-center gap-x-5">
+                    <div>
+                        <img class="secondary-img h-120 rounded-xl" src="./assets/images/profile.jpg" alt="placeholder photo">
+                    </div>
+                    <div class="quotes">
+                        <div class="quote-boxes flex gap-x-3">
+                            <div class="boxes border-2 border-solid rounded-xl flex-1 p-3">
+                                <img src="" alt="chess-piece">
+                                <h3>Experience</h3>
+                                <p>2+ years</p>
+                                <p>Frontend Development</p>
+                            </div>
+                            <div class="boxes border-2 border-solid rounded-xl flex-1 p-3">
+                                <img src="" alt="people icon">
+                                <h3>Education</h3>
+                                <p>Bachelors of Kinesiology</p>
+                                <p>Software Developer Assistant Cert</p>
+                            </div>
+                        </div>
+                        <div class="pt-4">
+                            <p >Living between two worlds-a background in Kinesiology and Technology. I gained dhkhgjsknjndfjirgnsr bgbttgb rth brhtb thi brt bhrtbtrhtrs bhvtr btr hbhtr bht hbro shbtrh r bhtrb tr bshrt bhir bhhr bstrh brth bitrhb rw behb reihb etrihbh rte tri hithb irht bhietr bith rbihreb hir hb. hbrgiegvygeurbvyeur vergre gert trtrh tr h.rh trr hrth rthtrhtrhrt.h rthdyhdt . </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>                
+            
+
+    <!-- =================EXPERIENCE SECTION================== -->
+
+            <div id="experience" class="h-screen">
+                
+                    <div class="experience-container">
+                        <div class="title-container">
+                            <div class="title">
+                                <small>&#8592; HERE LIES SOME OF MY &#8594;</small>
+                                <h2><span class="rain">XP</span>erience</h2>
+                            </div>
+                        </div>
+                        <div class="content">    
+                            <div class="cards-container">
+                                <div class="cards c1">
+                                    <div class="card">
+                                        <div class="card-title">
+                                            <h3>Frontend Development</h3>
+                                        </div>
+                                        <div class="row">
+                                            <ul>
+                                                <li><b>HTML</b><br><small>Proficient</small></li>
+                                                
+                                                <li><b>SaaS</b><br><small>Proficient</small></li>
+                                                
+                                                <li><b>CSS</b><br><small>Proficient</small></li>
+                                            </ul>
+                                            <ul>   
+                                                <li><b>JS | Python</b><br><small>Proficient</small></li>
+                                                
+                                                <li><b>TypeScript</b><br><small>Foundational</small></li>
+                                                
+                                                <li><b>React</b><br><small>Foundational</small></li>
+                                            </ul>
+                                        </div>        
+                                    </div>
+                                </div>
+
+                                <div class="cards c2">
+                                    <div class="card">
+                                        <div class="card-title">
+                                            <h3>Backend Development</h3>
+                                        </div>
+                                        <div class="row">
+                                            <ul>
+                                                <li><b>PostgreSQL</b><br><small>Proficient</small></li>
+                                                
+                                                <li><b>Microsoft SQL</b><br><small>Proficient</small></li>
+                                            </ul>
+                                            <ul>
+                                                <li><b>Node JS</b><br><small>Familiar</small></li>
+                                                
+                                                <li><b>Git</b><br><small>Foundational</small></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+
+
+        <!-- PROJECT SECTION -->
+
+            <div id="projects">
+                <div class="title">
+                    <small>&#8592; HERE LIES SOME OF MY &#8594;</small>
+                    <h2>Featured Projects</h2>
+                </div>
+                <div class="projects-container">
+                    <div class="project-slides">
+                        <div class="info project1">
+                            <img src="./assets/images/background.avif" alt="" >
+                            <h3>MINI JARVIS</h3>
+                            <p>Mini Jarvis is an automation parsing tool that streamlines file organization, data cleaning, and report generation.  </p>
+                            <div class="tech-stack">
+                                <p>Python</p>
+                                <p>OpenAI</p>
+                                <p>API</p>
+                                <p>Automation</p>
+                            </div>
+                            <div class="view-study">
+                                <button class="case-study"> View Case Study &#8594;</button>
+                            </div>
+                            
+                        </div>
+                        <div class="info project1">
+                            <img src="./assets/images/background.avif" alt="" >
+                            <h3>PROJECT 2</h3>
+                            <p>Mini Jarvis is an automation parsing tool that streamlines file organization, data cleaning, and report generation.  </p>
+                            <div class="tech-stack">
+                                <p>Python</p>
+                                <p>OpenAI</p>
+                                <p>API</p>
+                                <p>Automation</p>
+                            </div>
+                            <div class="view-study">
+                                <button class="case-study"> View Case Study &#8594;</button>
+                            </div>
+                        </div>
+                        <div class="info project1">
+                            <img src="./assets/images/background.avif" alt="" >
+                            <h3>PROJECT 3</h3>
+                            <p>Mini Jarvis is an automation parsing tool that streamlines file organization, data cleaning, and report generation.  </p>
+                            <div class="tech-stack">
+                                <p>Python</p>
+                                <p>OpenAI</p>
+                                <p>API</p>
+                                <p>Automation</p>
+                            </div>
+                            <div class="view-study">
+                                <button class="case-study"> View Case Study &#8594;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!-- =================CONTACT SECTION================== -->
+
+            <div id="contact" class="">
+                <div class="flex-container">
+                    <section class="contact-holder">
+                        <div>
+                            <div class="title">
+                                <small>&#8592; SOME WAYS TO &#8594;</small>
+                                <h2>Contact Me</h2>
+                            </div>
+                        </div>
+                        <div class="contact-info-holder">
+                            <div class="contact-info">
+                                <p>Email: jayyknght@gmail.com</p>
+                                <p>Instagram: jnarly_kartoons</p>
+                                <p>TikTok: its_jaylin</p>
+                            </div>
+                        </div>    
+                    </section>
+                </div>
+                <div class="flex-holder-container">
+                    <div class="foot-holder">
+                        <nav>
+                            <div class="nav-bar">
+                                
+                                <ul>
+                                    <li class="item1"><a href="#about">About</a></li>
+                                    <li class="item4"><a href="#experience">Experience</a></li>
+                                    <li class="item2"><a href="#projects">Projects</a></li>
+                                    <li class="item3"><a href="#contact">Contact</a></li>
+                                </ul>
+                            
+                            </div>
+                        
+                            
+                        </nav>
+                        <div class="foot">
+                            <p>&copy; 2025 jaylin.com. All rights reserved.</p>
+                            <p>Create. Develop. Design.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+        <script src="./index.js" async defer></script>
+    </body>
+</html>
